@@ -5,10 +5,32 @@
   <title>FirebaseCrud</title>
   <base href="/">
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
   <app-root>Loading...</app-root>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyChfbiTaN7deX4Dyiggzv3vbq4LHqU50kw",
+    authDomain: "fir-crud-f765e.firebaseapp.com",
+    databaseURL: "https://fir-crud-f765e.firebaseio.com",
+    storageBucket: "fir-crud-f765e.appspot.com",
+    messagingSenderId: "450788208288"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+
 </body>
 </html>
